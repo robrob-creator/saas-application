@@ -11,6 +11,7 @@ module.exports = {
       yellow: colors.amber,
       white: colors.white,
       green: colors.green,
+      black:colors.black
     },
     textColor: theme => theme('colors'),
     textColor: {
@@ -18,6 +19,7 @@ module.exports = {
       'secondary': '#ffed4a',
       'danger': '#e3342f',
       'white': colors.white,
+      'green': colors.green,
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
